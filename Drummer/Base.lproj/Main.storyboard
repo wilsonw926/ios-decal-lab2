@@ -79,6 +79,9 @@
                                     <segment title="Acoustic"/>
                                     <segment title="Electronic"/>
                                 </segments>
+                                <connections>
+                                    <action selector="drumKitWasChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="84A-2J-ync"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUi-9a-jUF">
                                 <rect key="frame" x="242" y="267" width="107" height="230"/>
