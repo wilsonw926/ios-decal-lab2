@@ -70,19 +70,6 @@
                                     <action selector="drumButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Re3-Xi-TtT"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="g9w-2R-K14">
-                                <rect key="frame" x="200" y="631" width="162" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="ufE-AU-NAs"/>
-                                </constraints>
-                                <segments>
-                                    <segment title="Acoustic"/>
-                                    <segment title="Electronic"/>
-                                </segments>
-                                <connections>
-                                    <action selector="drumKitWasChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="84A-2J-ync"/>
-                                </connections>
-                            </segmentedControl>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUi-9a-jUF">
                                 <rect key="frame" x="242" y="267" width="107" height="230"/>
                                 <color key="backgroundColor" red="0.0" green="0.038836428917506716" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -100,6 +87,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="g9w-2R-K14">
+                                <rect key="frame" x="214" y="629" width="135" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="ufE-AU-NAs"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Acoustic"/>
+                                    <segment title="Electronic"/>
+                                </segments>
+                                <connections>
+                                    <action selector="drumKitWasChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="84A-2J-ync"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>

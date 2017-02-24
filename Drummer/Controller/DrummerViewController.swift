@@ -24,8 +24,6 @@ class DrummerViewController: UIViewController {
         // sets the default drum kit to drumkit0
         currentDrumKit = drumKit0
     }
-    
-    // YOUR CODE HERE
 
     @IBAction func drumButtonWasPressed(_ sender: UIButton) {
         currentDrumKit?.playDrumSound(forDrumWithTag: sender.tag)
